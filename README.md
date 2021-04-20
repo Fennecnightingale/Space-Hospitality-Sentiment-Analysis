@@ -1,6 +1,6 @@
 # space-hospitality
 
-![Blastoff](/figures/image_blastoff.jpg)
+![Blastoff](/mattbranch/figures/image_blastoff.jpg)
 
 # Natural Language Processing and Sentiment Analysis of the Interstellar travel industry
 
