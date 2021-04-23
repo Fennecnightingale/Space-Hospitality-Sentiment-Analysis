@@ -70,23 +70,23 @@ In addition, this Naive Bayes Classifier illustrates:
 Below are the word clouds of the most commonly used words within the five clusters
 ![Cluster0](/figures/fig_cloud_cluster0.png)
     
-  <li> Cluster 0
+  - Cluster 0
 
 ![Cluster1](/figures/fig_cloud_cluster1.png)
     
-  <li> Cluster 1
+  - Cluster 1
 
 ![Cluster2](/figures/fig_cloud_cluster2.png)
     
-  <li> Cluster 2
+  - Cluster 2
 
 ![Cluster3](/figures/fig_cloud_cluster3.png)
     
-  <li> Cluster 3
+  - Cluster 3
   
 ![Cluster4](/figures/fig_cloud_cluster4.png)
     
-  <li> Cluster 4
+  - Cluster 4
   
 
 ## Conclusions
