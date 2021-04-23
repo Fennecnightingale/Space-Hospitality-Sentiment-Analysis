@@ -1,6 +1,6 @@
 # space-hospitality
 
-![Blastoff](/figures/image_blastoff.jpg)
+![Blastoff](figures/image_blastoff.jpg)
 
 # Natural Language Processing and Sentiment Analysis of the Interstellar travel industry
 
@@ -12,7 +12,7 @@
 
 There is a huge arena of both positive and negative discussions about space. To ensure that the leading businesses in the interstellar travel industry drive revenue, they’ll need to create a huge demand for and positive discussion around this currently unknown and unexplored industry. This project takes into account the discourse around the space travel industry by analyzing over two million Tweets scraped from Twitter and over two hundred thousand dive YouTube comments from over two hundred different YouTube videos to better understand the sentiment around the most popular words used to discuss the space travel industry. With millions of different statements published by Twitter and YouTube users online and a number of features and attributes about each statement, this dataset provides a strong basis to illustrate what words are used to describe space travel and classify how those words are used in the context of them having an opinion. By understanding, analyzing, and modeling the data, we are able to classify text into three different clusters with with XX.X% accuracy. By accurately classifying this text, we can best inform the industry leaders the way to most appropriately and successfully market space travel to the Twitter and YouTube communities, and beyond.
 
-![MostCommon](/figures/fig_histogram.png)
+![MostCommon](figures/fig_histogram.png)
 
 
 ## Business Problem
@@ -21,7 +21,7 @@ The interstellar travel industry is a gold mining waiting to have its gold rush.
 
 With this impending bounty waiting to be explored, the industry still has a tremendous gap to cover with many unanswered questions that the public will require in order to be comfortable spending their money on traveling to space and investing in the companies that dedicate their time and resource to providing this soon-to-be-real service. 
 
-![WordCloud](/figures/fig_wordplot_corpus.png)
+![WordCloud](figures/fig_wordplot_corpus.png)
 
 
 The word cloud above displays the most commonly used nouns found in the corpus of 3.58 million nouns. As you can see, these words hold substantial relevance and importance. But to dig deeper, our study’s guiding question gets at the significance and sentiment of these meaningful words. Through this research and development, I will be answering/addressing the following questions:
@@ -46,18 +46,18 @@ This classification modeling project is in accordance with the CRISP-DM method. 
 
 ## Results
 ### Clustering
-![Clusters](/figures/fig_silhouette_best.png)
+![Clusters](figures/fig_silhouette_best.png)
 
 
 We used a series of different clustering techniques with a number of evaluation metrics to best identify the right clusters. The goal here is to find the ideal number of classifications to best describe the sentiment. The idea with finding the best clusters is a matter of striking a balance between finding distinct classification while having a similarity and association of words inside each cluster. Instead of forcing the sentiment into a binary classification of positive versus negative, we looked into leveraging a multi classification model to establish more of a gradient of sentiment. Using a number of techniques, we were able to pin down five clusters to best classify the text.
 
-![Elbow](/figures/k6.png)
+![Elbow](figures/k6.png)
 
 
 ### Modeling
 After clustering, we used the Naive Bayes classifier to be able to forecast future data. The algorithm we developed was able to accurately classify 92% of the data. While two clusters demonstrated some degree of false positives and false negatives, this model did an exceptional job at classifying the text with three of the five clusters. In those three--labeled clusters 0, 1, and 2, virtually no text was misclassified! By honing in on accuracy, the model ensures that we capture a holistic approach where a both false positive and false negative misclassifications are taken into account. By focusing on accuracy, this model avoids both types of errors.
 
-![Matrix](/figures/fig_confusionmatrix.png)
+![Matrix](figures/fig_confusionmatrix.png)
 
 In addition, this Naive Bayes Classifier illustrates:
 <ol>
@@ -70,23 +70,23 @@ In addition, this Naive Bayes Classifier illustrates:
 Below are the word clouds of the most commonly used words within the five clusters
 
 
-![Cluster0](/figures/fig_cloud_cluster0.png)
+![Cluster0](figures/fig_cloud_cluster0.png)
     
   - Cluster 0
 
-![Cluster1](/figures/fig_cloud_cluster1.png)
+![Cluster1](figures/fig_cloud_cluster1.png)
     
   - Cluster 1
 
-![Cluster2](/figures/fig_cloud_cluster2.png)
+![Cluster2](figures/fig_cloud_cluster2.png)
     
   - Cluster 2
 
-![Cluster3](/figures/fig_cloud_cluster3.png)
+![Cluster3](figures/fig_cloud_cluster3.png)
     
   - Cluster 3
   
-![Cluster4](/figures/fig_cloud_cluster4.png)
+![Cluster4](figures/fig_cloud_cluster4.png)
     
   - Cluster 4
   
@@ -115,7 +115,8 @@ See the full analysis in our <a href="https://github.com/Fennecnightingale/space
 For additional info, contact us here: [ Fennec C. Nightingale,](mailto:fenneccharles@gmail.com) & [ Matthew Lipman,](mailto:matthewrlipman@gmail.com)
 
 ## Repository Structure
-
+```
+data too large to push to github, files noted how they're stored locally 
 ├──.ipynb_checkpoints
 ├──.gitignore
 ├──data
@@ -158,12 +159,13 @@ For additional info, contact us here: [ Fennec C. Nightingale,](mailto:fenneccha
     ├──Cleaning.pdf
     ├──Evaluating Clustering Sklearn.pdf
     ├──FAISS and Bayes Final Modeling.pdf
+    ├──Github Repo.pdf
     ├──Presentation.pdf
     ├──Sentiment Analysis.pdf
     ├──Twitter Scraping.pdf
     ├──Visualizing Corpus
     ├──Word Clouds.pdf
-    ├──YouTube Scraping.pdf   
+    ├──YouTube Scraping.pdf 
 ├──Cleaning.pdf
 ├── Cluster_Evaluation_Sklearn.ipynb
 ├── Cluster_NLP_Sentiment_Analysis.ipynb
@@ -176,4 +178,4 @@ For additional info, contact us here: [ Fennec C. Nightingale,](mailto:fenneccha
 ├── Clustering_Sklearn.ipynb
 ├── Data_Cleaning.ipynb
 ├── Visualizing-Corpus.ipynb
- ── Visualizing-Wordclouds.ipynb
+└── Visualizing-Wordclouds.ipynb
