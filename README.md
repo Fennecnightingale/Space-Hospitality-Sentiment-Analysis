@@ -110,7 +110,7 @@ Further analyses could yield additional insights to substantiate behavior leadin
 
 ## For More Information
 
-See the full analysis in my <a href="https://github.com/Fennecnightingale/space-hospitality/master/Insert%20Name%20Here.ipynb">Jupyter Notebook</a> or review my <a href="https://github.com/Fennecnightingale/space-hospitality/blob/master/Presentation.pdf">Presentation</a>.
+See the full analysis in our <a href="https://github.com/Fennecnightingale/space-hospitality/master/Insert%20Name%20Here.ipynb">Jupyter Notebook</a> or review our <a href="https://github.com/Fennecnightingale/space-hospitality/blob/master/Presentation.pdf">Presentation</a>.
 
 For additional info, contact us here: [ Fennec C. Nightingale,](mailto:fenneccharles@gmail.com) & [ Matthew Lipman,](mailto:matthewrlipman@gmail.com)
 
