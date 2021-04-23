@@ -1,6 +1,6 @@
 # space-hospitality
 
-![Blastoff](/figures/image_blastoff.jpg)
+![image_blastoff](https://user-images.githubusercontent.com/68678808/115890113-72a4dc80-a409-11eb-9991-ebb84ff2a3e2.jpg)
 
 # Natural Language Processing and Sentiment Analysis of the Interstellar travel industry
 
@@ -22,7 +22,7 @@ The interstellar travel industry is a gold mining waiting to have its gold rush.
 With this impending bounty waiting to be explored, the industry still has a tremendous gap to cover with many unanswered questions that the public will require in order to be comfortable spending their money on traveling to space and investing in the companies that dedicate their time and resource to providing this soon-to-be-real service. 
 
 ![WordCloud](/figures/fig_wordplot_corpus.png)
-
+ 
 
 The word cloud above displays the most commonly used nouns found in the corpus of 3.58 million nouns. As you can see, these words hold substantial relevance and importance. But to dig deeper, our study’s guiding question gets at the significance and sentiment of these meaningful words. Through this research and development, I will be answering/addressing the following questions:
 <ol>
@@ -55,16 +55,16 @@ We used a series of different clustering techniques with a number of evaluation 
 
 
 ### Modeling
-After clustering, we used the Naive Bayes classifier to be able to forecast future data. The algorithm we developed was able to accurately classify 92% of the data. While two clusters demonstrated some degree of false positives and false negatives, this model did an exceptional job at classifying the text with three of the five clusters. In those three--labeled clusters 0, 1, and 2, virtually no text was misclassified! By honing in on accuracy, the model ensures that we capture a holistic approach where a both false positive and false negative misclassifications are taken into account. By focusing on accuracy, this model avoids both types of errors.
+After clustering, we used the Naive Bayes classifier to be able to forecast future data. The algorithm we developed was able to accurately classify 93% of the data. While two clusters demonstrated some degree of false positives and false negatives, this model did an exceptional job at classifying the text with three of the five clusters. In those three--labeled clusters 0, 1, and 3, virtually no text was misclassified! By honing in on accuracy, the model ensures that we capture a holistic approach where a both false positive and false negative misclassifications are taken into account. By focusing on accuracy, this model avoids both types of errors.
 
 ![Matrix](/figures/fig_confusionmatrix.png)
 
 In addition, this Naive Bayes Classifier illustrates:
 <ol>
-  <li> 92% Accuracy
-  <li> Clusters 0, 1, 2 -> virtually 100% accuracy
-  <li> Cluster 3 -> false positives/negatives present, a cluster accuracy of 76%
-  <li> Cluster 4 -> some false positives/negatives, a cluster accuracy of 87%
+  <li> 93% Accuracy
+  <li> Clusters 0, 1, 3 -> virtually 100% accuracy
+  <li> Cluster 2 -> false positives/negatives present, a cluster accuracy of 87%
+  <li> Cluster 4 -> some false positives/negatives, a cluster accuracy of 82%
 
 
 Below are the word clouds of the most commonly used words within the five clusters
@@ -128,6 +128,7 @@ data too large to push to github, files note how they're stored locally
     ├──4.6.youtube
     ├──3.26.twitter
     ├──matts_twts
+    ├──final_clean_6_word
 ├──Images
     ├── Appendix.png
     ├── fig_ confusionmatrix.png
