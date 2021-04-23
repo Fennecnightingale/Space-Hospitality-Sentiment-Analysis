@@ -22,7 +22,7 @@ The interstellar travel industry is a gold mining waiting to have its gold rush.
 With this impending bounty waiting to be explored, the industry still has a tremendous gap to cover with many unanswered questions that the public will require in order to be comfortable spending their money on traveling to space and investing in the companies that dedicate their time and resource to providing this soon-to-be-real service. 
 
 ![WordCloud](/figures/fig_wordplot_corpus.png)
-
+ 
 
 The word cloud above displays the most commonly used nouns found in the corpus of 3.58 million nouns. As you can see, these words hold substantial relevance and importance. But to dig deeper, our study’s guiding question gets at the significance and sentiment of these meaningful words. Through this research and development, I will be answering/addressing the following questions:
 <ol>
