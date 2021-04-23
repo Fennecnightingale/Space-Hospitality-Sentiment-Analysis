@@ -128,6 +128,7 @@ data too large to push to github, files note how they're stored locally
     ├──4.6.youtube
     ├──3.26.twitter
     ├──matts_twts
+    ├──final_clean_6_word
 ├──Images
     ├── Appendix.png
     ├── fig_ confusionmatrix.png
