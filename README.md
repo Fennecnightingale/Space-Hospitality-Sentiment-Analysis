@@ -21,7 +21,7 @@ The interstellar travel industry is a gold mining waiting to have its gold rush.
 
 With this impending bounty waiting to be explored, the industry still has a tremendous gap to cover with many unanswered questions that the public will require in order to be comfortable spending their money on traveling to space and investing in the companies that dedicate their time and resource to providing this soon-to-be-real service. 
 
-![WordCloud](/figures/fig_wordplot.png)
+![WordCloud](/figures/fig_wordplot_corpus.png)
 
 
 The word cloud above displays the most commonly used nouns found in the corpus of 3.58 million nouns. As you can see, these words hold substantial relevance and importance. But to dig deeper, our study’s guiding question gets at the significance and sentiment of these meaningful words. Through this research and development, I will be answering/addressing the following questions:
@@ -45,49 +45,58 @@ This classification modeling project is in accordance with the CRISP-DM method. 
 
 
 ## Results
+### Clustering
+![Clusters](/figures/fig_silhouette_best.png)
 
-![Clusters](/figures/fig_silhouette05.png)
 
-
-We used a number of different clustering techniques with a series of evaluation metrics to best identify the right cluster. The goal here is to find the ideal number of classifications to best describe the sentiment. Instead of forcing the sentiment into a binary classification of positive versus negative, we looked into creating more of a gradient of sentiment. Using a number of techniques, we were able to pin down THREE CLUSTERS [SUBJECT TO CHANGE] to best categorize the text.
+We used a series of different clustering techniques with a number of evaluation metrics to best identify the right clusters. The goal here is to find the ideal number of classifications to best describe the sentiment. The idea with finding the best clusters is a matter of striking a balance between finding distinct classification while having a similarity and association of words inside each cluster. Instead of forcing the sentiment into a binary classification of positive versus negative, we looked into leveraging a multi classification model to establish more of a gradient of sentiment. Using a number of techniques, we were able to pin down five clusters to best classify the text.
 
 ![Elbow](/figures/k6.png)
 
-The most effective clustering technique we used to classify the text had the following attributes:
-<ol>
-  <li> Three clusters
-  <li> Inertia = XXXXX
-  <li> Imbalance Mean = | Imbalance Median =  
-  <li> Hyperparameter tuning to optimize the model's recall and reduce model overfitting
-</ol>
 
-We used a Naive Bayes Classifier to model our finding and found that XX.X% of the text is accurately predicted by the model.
+### Modeling
+After clustering, we used the Naive Bayes classifier to be able to forecast future data. The algorithm we developed was able to accurately classify 92% of the data. While two clusters demonstrated some degree of false positives and false negatives, this model did an exceptional job at classifying the text with three of the five clusters. In those three--labeled clusters 0, 1, and 2, virtually no text was misclassified! By honing in on accuracy, the model ensures that we capture a holistic approach where a both false positive and false negative misclassifications are taken into account. By focusing on accuracy, this model avoids both types of errors.
 
-[INSERT MATRIX HERE]
+![Matrix](/figures/fig_confusionmatrix.png)
 
 In addition, this Naive Bayes Classifier illustrates:
 <ol>
-  <li> Coming soon...
-  <li> Coming soon...
-       
-![AdvanceImage1](/figures/wordcloud_cluster0.png)
-    
-  <li> Coming soon...
-  
-![AdvanceImage2](/figures/tfidf.png)
-  
-  <li> Coming soon...
-</ol>
+  <li> 92% Accuracy
+  <li> Clusters 0, 1, 2 -> virtually 100% accuracy
+  <li> Cluster 3 -> false positives/negatives present, a cluster accuracy of 76%
+  <li> Cluster 4 -> some false positives/negatives, a cluster accuracy of 87%
 
-By honing in on accuracy, the model ensures that we capture a holistic approach where a both false positive and false negative misclassifications are taken into account. By focusing on accuracy, this model avoids both types of errors.
+
+Below are the word clouds of the most commonly used words within the five clusters
+![Cluster0](/figures/fig_cloud_cluster0.png)
+    
+  <li> Cluster 0
+
+![Cluster1](/figures/fig_cloud_cluster1.png)
+    
+  <li> Cluster 1
+
+![Cluster2](/figures/fig_cloud_cluster2.png)
+    
+  <li> Cluster 2
+
+![Cluster3](/figures/fig_cloud_cluster3.png)
+    
+  <li> Cluster 3
+  
+![Cluster4](/figures/fig_cloud_cluster4.png)
+    
+  <li> Cluster 4
+  
 
 ## Conclusions
 
 This analysis leads to three recommendations:
 
-- **ONE.** Coming soon...
-- **TWO.** Coming soon...
-- **THREE.** Coming soon...
+- **ONE.** Leverage the use of the word "Space." Space is commonly found within the discourse, but in congruence with other words will add significance.
+- **TWO.** Partner and collaborate with current industry leaders. Institutions like NASA and SpaceX not only have scientific headway, but they have built reputations, high esteem, and clout. Partnering with organizations of this scale will grow positive marketing schemes. 
+- **THREE.** Evoke emotion. The power building an emotional response adds tremendous value to your marketing capabilities. Customers think with their hearts, and by utilizing words like “love,” you are likely to create a positive sentiment around your product.
+
 
 ### Future Work
 
