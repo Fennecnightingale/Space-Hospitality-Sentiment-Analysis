@@ -116,7 +116,7 @@ For additional info, contact us here: [ Fennec C. Nightingale,](mailto:fenneccha
 
 ## Repository Structure
 ```
-data too large to push to github, files noted how they're stored locally 
+data too large to push to github, files note how they're stored locally 
 ├──.ipynb_checkpoints
 ├──.gitignore
 ├──data
