@@ -55,16 +55,16 @@ We used a series of different clustering techniques with a number of evaluation 
 
 
 ### Modeling
-After clustering, we used the Naive Bayes classifier to be able to forecast future data. The algorithm we developed was able to accurately classify 92% of the data. While two clusters demonstrated some degree of false positives and false negatives, this model did an exceptional job at classifying the text with three of the five clusters. In those three--labeled clusters 0, 1, and 2, virtually no text was misclassified! By honing in on accuracy, the model ensures that we capture a holistic approach where a both false positive and false negative misclassifications are taken into account. By focusing on accuracy, this model avoids both types of errors.
+After clustering, we used the Naive Bayes classifier to be able to forecast future data. The algorithm we developed was able to accurately classify 93% of the data. While two clusters demonstrated some degree of false positives and false negatives, this model did an exceptional job at classifying the text with three of the five clusters. In those three--labeled clusters 0, 1, and 3, virtually no text was misclassified! By honing in on accuracy, the model ensures that we capture a holistic approach where a both false positive and false negative misclassifications are taken into account. By focusing on accuracy, this model avoids both types of errors.
 
 ![Matrix](/figures/fig_confusionmatrix.png)
 
 In addition, this Naive Bayes Classifier illustrates:
 <ol>
-  <li> 92% Accuracy
-  <li> Clusters 0, 1, 2 -> virtually 100% accuracy
-  <li> Cluster 3 -> false positives/negatives present, a cluster accuracy of 76%
-  <li> Cluster 4 -> some false positives/negatives, a cluster accuracy of 87%
+  <li> 93% Accuracy
+  <li> Clusters 0, 1, 3 -> virtually 100% accuracy
+  <li> Cluster 2 -> false positives/negatives present, a cluster accuracy of 87%
+  <li> Cluster 4 -> some false positives/negatives, a cluster accuracy of 82%
 
 
 Below are the word clouds of the most commonly used words within the five clusters
