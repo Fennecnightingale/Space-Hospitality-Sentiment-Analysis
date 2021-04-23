@@ -116,5 +116,64 @@ For additional info, contact us here: [ Fennec C. Nightingale,](mailto:fenneccha
 
 ## Repository Structure
 
-```
-Coming soon...
+├──.ipynb_checkpoints
+├──.gitignore
+├──data
+    ├──3.20.youtube
+    ├──3.21.youtube
+    ├──3.26.youtube
+    ├──3.28.youtube
+    ├──3.29.youtube
+    ├──4.6.youtube
+    ├──3.26.twitter
+    ├──matts_twts
+├──Images
+    ├── Appendix.png
+    ├── fig_ confusionmatrix.png
+    ├── fig_cloud_cluster0.png
+    ├── fig_cloud_cluster1.png
+    ├── fig_cloud_cluster2.png
+    ├── fig_cloud_cluster3.png
+    ├── fig_cloud_cluster4.png
+    ├── fig_elbowmethod.png
+    ├── fig_histogram.png
+    ├── fig_silhouette_best.png
+    ├── fig_silhouette_better.png
+    ├── fig_silhouette05.png
+    ├── fig_silhouette07.png
+    ├── fig_silhouette09.png
+    ├── fig_silhouette11.png
+    ├── fig_silhouette_better.png
+    ├── fig_wordplot_corpus.png
+    ├── image_blastoff.png
+    ├── k4.png
+    ├── k5.png
+    ├── k6.png
+    ├── tfidf.png
+    ├── wordcloud_cluster0_old.png
+    ├── wordcloud_cluster1_old.png
+    ├── wordcloud_cluster2_old.png
+├── pdfs
+    ├──Clustering Sklearn.pdf
+    ├──Cleaning.pdf
+    ├──Evaluating Clustering Sklearn.pdf
+    ├──FAISS and Bayes Final Modeling.pdf
+    ├──Presentation.pdf
+    ├──Sentiment Analysis.pdf
+    ├──Twitter Scraping.pdf
+    ├──Visualizing Corpus
+    ├──Word Clouds.pdf
+    ├──YouTube Scraping.pdf   
+├──Cleaning.pdf
+├── Cluster_Evaluation_Sklearn.ipynb
+├── Cluster_NLP_Sentiment_Analysis.ipynb
+├── Clustering_Sklearn.ipynb
+├── Data_Cleaning.ipynb
+├── Data_Collection-Twitter_Scraping.ipynb
+├── Data_Collection-YouTube_Scraping.ipynb
+├── Final_Modeling.ipynb
+├── README.ipynb
+├── Clustering_Sklearn.ipynb
+├── Data_Cleaning.ipynb
+├── Visualizing-Corpus.ipynb
+ ── Visualizing-Wordclouds.ipynb
