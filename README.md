@@ -1,6 +1,6 @@
 # space-hospitality
 
-![image_blastoff](https://user-images.githubusercontent.com/68678808/115890113-72a4dc80-a409-11eb-9991-ebb84ff2a3e2.jpg).jpg)
+![image_blastoff](https://user-images.githubusercontent.com/68678808/115890113-72a4dc80-a409-11eb-9991-ebb84ff2a3e2.jpg)
 
 # Natural Language Processing and Sentiment Analysis of the Interstellar travel industry
 
